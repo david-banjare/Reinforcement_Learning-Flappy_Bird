@@ -278,7 +278,7 @@ I would like to sincerely thank my mentor and the SoS’25 team for their consta
 - [Deep Q-Network (DQN) Paper](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)  
 - [Coursera – RL Module](https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning)  
 - [YouTube Playlist – RL Concept Clarity](https://www.youtube.com/playlist?list=PLKnIA16_RmvbMK0_fdp0DZHZKm4Q1slAB)  
-- [Nicholas Renotte YouTube]([https://www.youtube.com/@CodeEmporium](https://www.youtube.com/watch?v=Mut_u40Sqz4))  
+- [Nicholas Renotte YouTube](https://www.youtube.com/watch?v=Mut_u40Sqz4)  
 - [Flappy Bird RL – TensorFlow + PyGame](https://www.youtube.com/watch?v=cM2a7AQeh6w)
 
 ---
