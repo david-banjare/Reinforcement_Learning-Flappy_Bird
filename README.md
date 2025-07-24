@@ -23,6 +23,15 @@ All my work is organized and uploaded to a public GitHub repository, which inclu
 
 ---
 
+
+
+
+<h1 align="center">MID TERM REPORT</h1>
+
+
+
+---
+
 ## 📆 **WEEK-WISE PROGRESS**
 
 All modules from this course are structured to have units in a week-by-week format where I can record what requires to be done, achieved milestones, learned as well as self-reflected upon my progress within each module:
@@ -157,6 +166,109 @@ Agent is learning basic survival — future episodes will improve flapping timin
 - Add real-time reward graphs and training logs  
 - Record gameplay video of the learned agent  
 - Finalize all notebooks with comments + cleanup  
+
+---
+
+
+
+
+<h1 align="center">END TERM REPORT</h1>
+
+
+---
+
+
+
+### 🕹️ Week 5-6: Applying DQN to Flappy Bird (Training & Fine-Tuning)
+
+---
+
+**What I Learned**
+
+- How to **adapt DQN** from a classic control task (CartPole) to a complex environment (Flappy Bird)
+- Importance of **state representation**: Image-based CNN vs. feature-based (position, pipe gap)
+- Critical role of **reward shaping** and **hyperparameter tuning** in sparse-reward settings
+
+---
+
+**Resources Used**
+
+- Previous **CartPole DQN** implementation
+- **PyTorch** official documentation
+- Online **RL course material** (Coursera, DeepMind research papers)
+- **Flappy Bird PyGame** base code (YouTube: CodeEmporium, CodingBytes)
+
+---
+
+**What I Did**
+
+- Reused the `DQNAgent` from CartPole, **modified for Flappy Bird's state inputs**
+- Built two agent versions:
+  - **Image-based CNN**
+  - **Position-based features** (bird height, pipe gap, velocity)
+- Trained the agent over **5000+ episodes** with **epsilon decay** strategy
+- **Logged rewards** and **saved gameplay videos** to observe qualitative improvements
+
+---
+
+## Output & Results
+
+| Episode Phase       | Observation                                                                 |
+|---------------------|------------------------------------------------------------------------------|
+| Initial Training     | No meaningful learning due to sparse rewards                                |
+| Mid Training         | After tuning hyperparameters, agent began surviving longer                  |
+| Final Episodes       | Agent consistently passed multiple pipes                                    |
+| Evaluation Videos    | Demonstrated visible improvement in bird's flapping and obstacle avoidance  |
+
+---
+
+## 🚧 Challenges Faced
+
+| Problem                             | Solution                                                   |
+|-------------------------------------|-------------------------------------------------------------|
+| Agent stuck in local minima         | Adjusted epsilon decay to encourage exploration             |
+| Sparse rewards = poor learning      | Introduced **reward shaping** (e.g., +1 for good flap)      |
+| Image-based model too slow          | Switched to position-based features for faster iteration    |
+
+---
+
+## 🧠 Key Learnings
+
+- DQN **generalizes well** to custom environments with properly shaped rewards
+- **Visual feedback** (videos) is crucial to validate agent’s learning
+- **Patience is key** — RL agents learn slowly, but results compound
+
+---
+
+## 📈 Experimental Summary
+
+| Environment        | Agent Behavior                          | Max Reward Achieved |
+|--------------------|------------------------------------------|----------------------|
+| `CartPole-v1`      | Balances pole reliably after training    | > 180                |
+| `FlappyBird-PyGame`| Survives 3–5 pipes; learning is visible  | Improving steadily   |
+
+---
+
+## ✨ Final Reflections
+
+### 🛠️ Technical Skills Gained
+- In-depth understanding of **DQN internals**: Target networks, Replay Buffers, etc.
+- Gained confidence in **PyTorch model design** and debugging training loops
+- Hands-on experience with **OpenAI Gym** & **PyGame** for environment integration
+
+### 👨‍💻 Personal Learning
+- Balanced **theory and implementation** effectively
+- Improved in **real-time debugging**, especially in game-like environments
+- Learned the true value of **trial-and-error** in reinforcement learning
+
+---
+
+> 🏁 *This was a major milestone in my RL journey — applying core concepts to a real, dynamic game and observing my agent evolve from random flapping to consistent survival!*
+
+
+##🙏 Acknowledgements
+
+I would like to sincerely thank my mentor and the SoS’25 team for their constant guidance, timely feedback, and for structuring this opportunity in a way that allowed deep exploration without overwhelming deadlines. This has been one of the most enriching academic experiences I've had so far.
 
 ---
 
