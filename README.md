@@ -152,7 +152,6 @@ All modules from this course are structured to have units in a week-by-week form
 | Environment        | Agent Behavior                          | Max Reward Achieved |
 |--------------------|------------------------------------------|----------------------|
 | `CartPole-v1`      | Balances pole successfully after training | > 180               |
-| `FlappyBird-PyGame`| Avoids 3–5 pipes with basic training      | Improving gradually |
 
 Agent is learning basic survival — future episodes will improve flapping timing and score.
 
@@ -206,7 +205,7 @@ Agent is learning basic survival — future episodes will improve flapping timin
 - Built two agent versions:
   - **Image-based CNN**
   - **Position-based features** (bird height, pipe gap, velocity)
-- Trained the agent over **5000+ episodes** with **epsilon decay** strategy
+- Trained the agent over **500+ episodes** with **epsilon decay** strategy
 - **Logged rewards** and **saved gameplay videos** to observe qualitative improvements
 
 ---
