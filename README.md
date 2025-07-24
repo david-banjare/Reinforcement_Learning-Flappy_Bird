@@ -266,7 +266,7 @@ Agent is learning basic survival — future episodes will improve flapping timin
 > 🏁 *This was a major milestone in my RL journey — applying core concepts to a real, dynamic game and observing my agent evolve from random flapping to consistent survival!*
 
 
-##🙏 **Acknowledgements**
+## 🙏 **Acknowledgements**
 
 I would like to sincerely thank my mentor and the SoS’25 team for their constant guidance, timely feedback, and for structuring this opportunity in a way that allowed deep exploration without overwhelming deadlines. This has been one of the most enriching academic experiences I've had so far.
 
