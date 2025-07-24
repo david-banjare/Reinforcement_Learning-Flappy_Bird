@@ -117,7 +117,7 @@ All modules from this course are structured to have units in a week-by-week form
 **Output:**
 - Environment runs frame-by-frame  
 - Game resets on collision  
-- Rewards: +1 for passing pipes, -10 on collision  
+- Rewards: +1 for passing pipes, -100 on collision  
 - Successfully trained a basic agent loop for short-term learning
 
  **Challenges Faced:**
